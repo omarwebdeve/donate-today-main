@@ -24,9 +24,18 @@ h2{
   font-size: 45px;
   font-weight: 700;
 }
+/* ---------- small heading ------------ */
+h3{
+  color: #121212;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
 /* -------- content ----------- */
 p{
-  font-size: 18px;
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
 }
 /* --------- linking ------ */
 a{
@@ -79,11 +88,12 @@ header {
 }
 
 
-section.donation {
+.empty-space{
   width: 826px;
   text-align: center;
   margin: 0 auto;
 }
+
 
 .donation-content-area {
   padding: 0 100px;
@@ -101,7 +111,7 @@ section.donation {
 .donation-amount {
   display: flex;
   justify-content: space-around;
-  padding: 0 100px;
+  padding: 0 60px;
   margin-top: 25px;
 }
 
@@ -112,9 +122,8 @@ section.donation {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 135px;
-  height: 123px;
-  background: #FAFAFA;
+  width: 159px;
+  height: 130px;  background: #FAFAFA;
   border-radius: 5px;
   margin: 20px 5px 10px;
   color: #707070;
@@ -139,26 +148,54 @@ section.donation {
   border: 1px solid #DADADA;
   margin-top: 3px;
 }
-
-.box-area {
-  display: flex;
-  justify-content: space-between;
+.diver+a{
+  margin-top: 10px;
 }
 
-.box {
-  background-color: rgba(79, 157, 166, 0.1);
+section.donate-plan {
+  margin-top: 125px;
+}
+section.donate-plan .donation-plan-header {
+  margin-bottom: 35px;
+}
+section.donate-plan .donation-plan-content {
+  color: #707070;
+  padding: 0 55px 50px;
+}
+section.donate-plan .box-area {
+  width: 1135px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+} 
+section.donate-plan .box {
   width: 360px;
   height: 352px;
   margin: 0 5px;
   text-align: left;
+  border-radius: 7px;
+  padding: 62px 28px 0;
 }
-
-.shelter-box {
-  background-color: rgba(255, 89, 89, 0.1);
+.box.food-box {
+  background: #EDF5F6;
 }
-
-.education {
-  background-color: #FFF4D6;
+.box.shelter-box {
+  background: #FFEEEE;
+}
+.box.education {
+  background: #F4EACD;
+}
+section.donate-plan .box h3{
+  margin: 30px 0 20px;
+}
+section.updates h2{
+  margin:0 0 25px;
+}
+section.updates p{
+  padding: 0 100px 50px ;
+}
+section.updates .subscribe-form{
+  
 }
 
 /* -------- footer style here ----------- */
