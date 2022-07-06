@@ -195,9 +195,40 @@ section.updates p{
   padding: 0 100px 50px ;
 }
 section.updates .subscribe-form{
-  
+  padding: 76px;
+  background: #FFF4D6;
+  margin-bottom: 130px;
 }
+input{
+  padding: 15px;
+  border: 0;
+}
+input#email{
+  width: 275px;
+  background-color: #D9D9D9;
+  border-radius: 5px 0px 0px 5px;
+}
+input#email:active{
+  border: 0;
+}
+/* --- select placeholder w3school --- */
+::placeholder{
+  color: #AA9F9F;
+  font-weight: 500;
+  font-size: 16px;  
+  font-weight: 700;
 
+}
+[value="Subscribe"]{
+  margin-left: -10px;
+  width: 157px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background: #FF5959;
+  border-radius: 0px 5px 5px 0px;
+}
 /* -------- footer style here ----------- */
 footer {
   background-color: #0B0D17;
