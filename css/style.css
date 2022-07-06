@@ -151,24 +151,70 @@ header {
 .diver+a{
   margin-top: 10px;
 }
+section.blog{
+  padding: 0 110px;
+  margin: 130px 0;
+}
+.blog  .head-blog-content{
+  position: relative;
+}
+.blog  .head-blog-content h2{
+  font-size: 38px;
+  margin: 15px 0;
+}
+.blog  .head-blog-content p{
+  margin-bottom: 50px;
+}
+.blog  .head-blog-content a{
+  margin-bottom: -45px;
+}
+.blog .blog-head-area img{
+  width: 100%;
+  height: 450px;
+}
+.blog .blog-box-area{
+  margin: 10px 0;
+  display: flex;
+}
+.blog .blog-box-area img{
+  width: 288px;
+}
+.blog .blog-content{
+  position: relative;
+  margin-left: 25px;
+}
+.blog .blog-content a, .blog  .head-blog-content a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.blog .blog-box-area h3{
+  font-size: 25px;
+  margin: 10px 0;
+}
+.blog .blog-box-area p{
+  text-align: justify; 
+}
 
 section.donate-plan {
   margin-top: 125px;
 }
-section.donate-plan .donation-plan-header {
+.donate-plan .donation-plan-header {
   margin-bottom: 35px;
 }
-section.donate-plan .donation-plan-content {
+.donate-plan .donation-plan-content {
   color: #707070;
   padding: 0 55px 50px;
 }
-section.donate-plan .box-area {
+.donate-plan .box-area {
   width: 1135px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
 } 
-section.donate-plan .box {
+.donate-plan .box {
   width: 360px;
   height: 352px;
   margin: 0 5px;
@@ -185,16 +231,16 @@ section.donate-plan .box {
 .box.education {
   background: #F4EACD;
 }
-section.donate-plan .box h3{
+.donate-plan .box h3{
   margin: 30px 0 20px;
 }
 section.updates h2{
   margin:0 0 25px;
 }
-section.updates p{
+.updates p{
   padding: 0 100px 50px ;
 }
-section.updates .subscribe-form{
+.updates .subscribe-form{
   padding: 76px;
   background: #FFF4D6;
   margin-bottom: 130px;
